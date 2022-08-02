@@ -10,8 +10,7 @@ import {
 } from 'react-native';
 import { Header } from 'react-native-elements';
 import db from './localdb';
-import PhonicSoundButton from './components/PhonicSoundButton';
-
+import PhonicSoundButton from './components/PhonicSoundButton'
 export default class App extends React.Component {
   constructor() {
     super();
@@ -29,6 +28,7 @@ export default class App extends React.Component {
           centerComponent={{
             text: 'Mono Fragmentado',
             style: { color: '#fff', fontSize: 20 },
+            
           }}
         />
 
