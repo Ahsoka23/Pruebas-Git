@@ -13,6 +13,7 @@ import db from './localdb';
 import PhonicSoundButton from './components/PhonicSoundButton'
 export default class App extends React.Component {
   constructor() {
+    //comentario 
     super();
     this.state = {
       text: '',
@@ -28,7 +29,7 @@ export default class App extends React.Component {
           centerComponent={{
             text: 'Mono Fragmentado',
             style: { color: '#fff', fontSize: 20 },
-            
+
           }}
         />
 
